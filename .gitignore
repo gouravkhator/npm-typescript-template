@@ -1,0 +1,4 @@
+node_modules/
+.ts-tmp/
+bin/
+build/test/
