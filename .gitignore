@@ -1,4 +1,10 @@
 node_modules/
+
+# typescript temp folder containing middle man compiled js files with declarations
 .ts-tmp/
+
+# binaries generated from builds
 bin/
+
+# test bundles
 build/test/
