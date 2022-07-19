@@ -1,7 +1,7 @@
 {
   "name": "npm-typescript-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "NPM Typescript Template",
   "type": "module",
   "main": "build/cjs/index.cjs",
   "module": "build/esm/index.mjs",
@@ -27,20 +27,6 @@
     "test": "rollup -c",
     "bin": "pkg . --compress GZip --output bin/$npm_package_name-v$npm_package_version"
   },
-  "files": [
-    "build/**"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gouravkhator/npm-typescript-template.git"
-  },
-  "keywords": [],
-  "author": "Gourav Khator",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gouravkhator/npm-typescript-template/issues"
-  },
-  "homepage": "https://github.com/gouravkhator/npm-typescript-template#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
@@ -55,5 +41,19 @@
     "rollup": "^2.50.5",
     "rollup-plugin-execute": "^1.1.1",
     "typescript": "^4.3.2"
-  }
+  },
+  "files": [
+    "build/**"
+  ],
+  "keywords": ["npm","typescript","template"],
+  "author": "Gourav Khator",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gouravkhator/npm-typescript-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouravkhator/npm-typescript-template.git"
+  },
+  "homepage": "https://github.com/gouravkhator/npm-typescript-template#readme"
 }
